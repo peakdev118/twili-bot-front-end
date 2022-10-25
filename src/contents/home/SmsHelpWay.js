@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import MainPageList from "../../components/MainPageList";
+import SectionTitle from "../../components/Section/title";
+import SectionSimpleDescription from "../../components/Section/simpledescription";
 
 import exampleImg from '../../images/homepage/Delivery-Tracking.gif';
 
@@ -22,26 +24,24 @@ function SmsHelpWays(props) {
 
   return (
     <section className="sms-help-ways bg-grey">
-      <Container className="px-4 py-5">
+      <Container className="px-3 py-5">
         <div className="title text-center">
-          <span>How SMS automation can help your business</span>
+          <SectionTitle title="How SMS automation can help your business" />
         </div>
-        <div className="simple-description text-center mt-3">
-          Sending automated text messages will simplify your workflow, so you
-          can spend less time on manual tasks and more time boosting your bottom line.
-        </div>
+        <SectionSimpleDescription className="simple-description text-center mt-3" 
+        description="Sending automated text messages will simplify your workflow, so you can spend less time on manual tasks and more time boosting your bottom line."/>
         <div className="mt-4">
           <Row>
             <Col md={6} sm={12}>
               <div className="d-flex justify-content-center">
-                <img src={exampleImg} className="example-img w-100" alt = "example-img"></img>
+                <img src={exampleImg} className="example-img w-100" alt="example-img"></img>
               </div>
             </Col>
             <Col md={6} sm={12} className="mt-5">
               {
                 lists.map((item, index) => {
                   return (
-                    <MainPageList key = {index} title={item.title} content={item.content} liststyle = "list-style-image"/>
+                    <MainPageList key={index} title={item.title} content={item.content} liststyle="list-style-image" />
                   )
                 })
               }

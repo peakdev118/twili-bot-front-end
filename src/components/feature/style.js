@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
 const style = styled.div`
-    padding-left: 58px;
+    .icon{
+        img{
+            height: 48px;
+        }
+    }
     p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     span{
         font-size: 1.125rem;
-        font-weight: bolder;
-    },
+    }
 `
 
 export default style;

@@ -8,7 +8,7 @@ import '../style/automation-sms-service.css';
 function AutomationSmsServiceSection() {
   return (
     <section className="automation-sms-service">
-      <Container className="px-4 py-5">
+      <Container className="px-3 py-5">
         <Row>
           <Col md={6}>
             <h1 className="title my-1 text-center">Automated SMS service</h1>
