@@ -1,0 +1,13 @@
+.list-style-image{
+    background: url("../../images/homepage/icon-tick.svg") no-repeat scroll left top 15px;
+}
+
+.line-style-number1{
+    background: url("../../images/homepage/list-1.svg") no-repeat scroll left top 15px;
+}
+.line-style-number2{
+    background: url("../../images/homepage/list-2.svg") no-repeat scroll left top 15px;
+}
+.line-style-number3{
+    background: url("../../images/homepage/list-3.svg") no-repeat scroll left top 15px;
+}
