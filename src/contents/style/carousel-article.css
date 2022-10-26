@@ -1,0 +1,37 @@
+p.carousel-article{
+    font-family: "Roboto Slab", serif;
+    display: relative;
+    quotes: "“" "”" "‘" "’";
+    position: relative;
+    font-size: 1.125rem !important;
+    font-weight: normal !important;
+    line-height: 1.4 !important;
+    color: rgb(37, 102, 177) !important;
+    margin-bottom: 0px !important;
+}
+
+.carousel-article::before{
+    font-family: 'Be Vietnam',sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #d0d0d0;
+    position: absolute;
+    height: 36px;
+    line-height: 1;
+    content: open-quote;
+    bottom: -8px;
+    top: -16px;
+    left: -30px;
+}
+
+.carousel-article::after{
+    font-family: 'Be Vietnam',sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #d0d0d0;
+    position: absolute;
+    height: 36px;
+    line-height: 1;
+    content: close-quote;
+    bottom: -8px;
+}

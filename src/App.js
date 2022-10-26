@@ -1,8 +1,8 @@
 import React,{Suspense} from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import './App.css';
 import Router from './router/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
